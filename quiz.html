@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="quiz.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=K2D&family=Kanit&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <title>paintings</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="quizPage page">
+      <div class="quizPage__wrapper">
+        <div id="quiz">
+          <h2>Quiz paintings</h2>
+          <div class="question">
+            <h3>Q1: Which of the following is a famous painting by Sandro Botticelli?</h3>
+            <ul>
+              <li><input type="radio" name="q1" value="a"> The birth of Venus</li>
+              <li><input type="radio" name="q1" value="b"> The birth of Zeus</li>
+              <li><input type="radio" name="q1" value="c"> The birth of Apollo</li>
+            </ul>
+          </div>
+          <div class="question">
+            <h3>Q2: Which of the following artists are known for their installations?</h3>
+            <ul>
+              <li><input type="checkbox" name="q2" value="a"> Damien Hirst</li>
+              <li><input type="checkbox" name="q2" value="b"> Ai Weiwei</li>
+              <li><input type="checkbox" name="q2" value="c"> Tracey Emin</li>
+              <li><input type="checkbox" name="q2" value="d"> Yayoi Kusama</li>
+            </ul>
+          </div>
+          <div class="question">
+            <h3>Q3: The painting “The Son of Man” by Rene Magritte depicts a man covered by which fruit on his face?
+            </h3>
+            <ul>
+              <li><input type="radio" name="q3" value="a">Apple</li>
+              <li><input type="radio" name="q3" value="b">Lemon</li>
+              <li><input type="radio" name="q3" value="c">Strawberry</li>
+              <li><input type="radio" name="q3" value="d">Banana</li>
+            </ul>
+          </div>
+          <p id="result"></p>
+          <button id="submitBtn" onclick="checkAnswers()">Подати відповіді</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="/quiz.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+html,
+body,
+li,
+a,
+ul,
+p {
+    font-family: 'K2D', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.InfoPage1__wrapper {
+    width: 100%;
+}
+
+.photoWrapper {
+    height: 100%;
+    border: none;
+}
+
+.InfoPage1__photo img {
+    height: 100%;
+    border: none;
+}
+.photoWrapper1 {
+    width: 40%;
+    height: 100%;
+    border: none;
+}
+
+.photoWrapper2{
+    width: 50%;
+    height: 100%;
+    border: none;
+}
+.InfoPage2__photo img{
+    margin-top: 150px ;
+    
+}
+
+.InfoPage3__photo img{
+    margin-top: 75px ;
+    
+}
+.InfoPage1__content {
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 40px 40px;
+    display: flex;
+    position: relative;
+}
+.background{
+    background-color: #D7D7D7;
+}
+.InfoPage2__content{
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    margin-left: 5px;
+    display: flex;
+    position: relative;
+}
+
+.info__content-text {
+    width: 400px;
+    position: absolute;
+
+}
+
+
+
+.InfoPage1__title {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 50px;
+    padding-top: 100px;
+}
+
+.InfoPage2__title{
+    font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+}
+
+.InfoPage2__mainText{
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+margin-right: 10px;
+}

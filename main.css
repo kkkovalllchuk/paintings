@@ -1,0 +1,105 @@
+html,
+body {
+    font-family: 'K2D', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+;
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    background-color: #D7D7D7;
+}
+
+.main {
+    margin-left: 112px;
+    justify-self: center;
+}
+
+.title {
+
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 193px;
+    display: flex;
+
+    color: #000000;
+}
+
+.text {
+    font-family: 'Kanit';
+    justify-content: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 501px;
+    color: #000000;
+}
+
+.photo {
+    width: 20%;
+    background: url(/img/Frame\ 4.svg);
+    filter: grayscale(100%);
+}
+
+.button {
+    background: linear-gradient(266.94deg, #FFB26A 1.71%, #FF620A 32.76%, #FF9212 80.89%);
+    mix-blend-mode: multiply;
+    border: 1px solid #000000;
+
+    border-radius: 20px;
+    width: 460px;
+    height: 90px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.link1 {
+    text-decoration: none;
+
+}
+
+
+.button_text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 54px;
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+.button {
+    display: block;
+    background: linear-gradient(266.94deg, #FFB26A 1.71%, #FF620A 32.76%, #FF9212 80.89%);
+    mix-blend-mode: multiply;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 460px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    color: black;
+}
